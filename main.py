@@ -18,7 +18,7 @@ m.maze[(1,0)] = m.EMPTY
 m.maze[(maze_width - 4,maze_depth-1)] = m.EMPTY
 
 sgd.init()
-sgd.createWindow(1920,1080,"Maze",1)
+sgd.createWindow(1920,1080,"Maze",sgd.WINDOW_FLAGS_FULLSCREEN)
 env = sgd.loadCubeTexture("sgd://envmaps/grimmnight-cube.jpg", 4, 56)
 sgd.setEnvTexture(env)
 skybox = sgd.createSkybox(env)
