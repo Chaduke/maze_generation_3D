@@ -14,3 +14,4 @@ cd maze_generation_3D
 pip install libsgd
 python main.py
 ```
+![Example Screenshot](https://github.com/Chaduke/maze_generation_3D/blob/master/images/example.png)
