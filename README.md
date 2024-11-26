@@ -1,3 +1,11 @@
+Maze generation was taken from Chapter 11 of the Recursion book at Invent With Python by Al Sweigart:
+
+https://inventwithpython.com/recursion/chapter11.html
+
+I then adapted it into 3D using LibSGD:
+
+https://libsgd.org
+
 To see this example in action do this:
 
 ```
