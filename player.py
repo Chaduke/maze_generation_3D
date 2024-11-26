@@ -1,5 +1,7 @@
 from libsgd import sgd
 
+# it looks like I was going to adapt this into a dungeon crawler type game but got sidetracked
+
 class Player:
     def __init__(self):
         self.speed = 0.05
@@ -10,6 +12,7 @@ class Player:
         sgd.setEntityParent(self.camera, self.pivot)
         sgd.moveEntity(self.pivot, 1, 0.5, -1)
         sgd.turnEntity(self.pivot,0,180,0)
+        # just an example of how you could adapt this
         self.monsters_killed = 0
         self.missiles_fired = 0
         self.damage_taken = 0

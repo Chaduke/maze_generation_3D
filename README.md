@@ -14,4 +14,9 @@ cd maze_generation_3D
 pip install libsgd
 python main.py
 ```
+
+Use WASD or the arrow keys to move around and Mouse to steer
+
+This also gives you a decent demonstration of how to create a minimap.
+
 ![Example Screenshot](https://github.com/Chaduke/maze_generation_3D/blob/master/images/maze_generator.png)
